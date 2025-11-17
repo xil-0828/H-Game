@@ -39,7 +39,7 @@ export default function Page() {
                 </Box>
               </AspectRatio>
 
-              <Stack pt={2} spacing={0.5}>
+              <Stack pt={2} gap={0.5}>
                 <Text className={mplus1.className} fontSize="lg" fontWeight="semibold">
                   {item.title}
                 </Text>
